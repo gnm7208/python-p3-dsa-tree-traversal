@@ -11,6 +11,7 @@ class Tree:
     nodes_to_visit = [self.root]
     
     while nodes_to_visit:
+      # Process current node
       node = nodes_to_visit.pop(0)
       if node.get('id') == id:
         return node
