@@ -15,6 +15,7 @@ class Tree:
       node = nodes_to_visit.pop(0)
       if node.get('id') == id:
         return node
+      # Add children to front for depth-first
       nodes_to_visit = node.get('children', []) + nodes_to_visit
     
     return None
