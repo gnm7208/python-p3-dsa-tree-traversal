@@ -1,5 +1,5 @@
 class Tree:
-  """A tree data structure for DOM-like traversal."""
+  """A tree data structure for DOM-like traversal with getElementById functionality."""
   
   def __init__(self, root=None):
     """Initialize tree with optional root node."""
