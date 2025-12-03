@@ -19,7 +19,8 @@ class Tree:
       current_node = nodes_to_visit.pop(0)
       if current_node.get('id') == target_id:
         return current_node
-      # Add children to front for depth-first
-      nodes_to_visit = current_node.get('children', []) + nodes_to_visit
+      # Add children to front for depth-first traversal
+      children = current_node.get('children', [])
+      nodes_to_visit = children + nodes_to_visit
     
     return None
