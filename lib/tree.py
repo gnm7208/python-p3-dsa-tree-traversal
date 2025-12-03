@@ -7,6 +7,7 @@ class Tree:
     if not self.root:
       return None
     
+    # Initialize depth-first traversal
     nodes_to_visit = [self.root]
     
     while nodes_to_visit:
