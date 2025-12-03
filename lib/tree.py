@@ -3,6 +3,7 @@ class Tree:
     self.root = root
 
   def get_element_by_id(self, target_id):
+    """Find and return the first node with the specified id."""
     # Return None if tree is empty
     if not self.root:
       return None
