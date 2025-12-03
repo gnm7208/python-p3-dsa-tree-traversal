@@ -11,7 +11,7 @@ class Tree:
     if not self.root:
       return None
     
-    # Initialize depth-first traversal
+    # Initialize depth-first traversal queue
     nodes_to_visit = [self.root]
     
     while nodes_to_visit:
