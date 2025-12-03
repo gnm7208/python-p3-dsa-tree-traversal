@@ -1,4 +1,6 @@
 class Tree:
+  """A tree data structure for DOM-like traversal."""
+  
   def __init__(self, root=None):
     self.root = root
 
