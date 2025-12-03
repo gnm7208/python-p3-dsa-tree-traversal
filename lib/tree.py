@@ -2,6 +2,7 @@ class Tree:
   """A tree data structure for DOM-like traversal."""
   
   def __init__(self, root=None):
+    """Initialize tree with optional root node."""
     self.root = root
 
   def get_element_by_id(self, target_id):
