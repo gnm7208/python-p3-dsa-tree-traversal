@@ -3,6 +3,7 @@ class Tree:
     self.root = root
 
   def get_element_by_id(self, id):
+    # Return None if tree is empty
     if not self.root:
       return None
     
